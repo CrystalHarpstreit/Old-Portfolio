@@ -1,0 +1,116 @@
+body {
+  margin: 0;
+}
+
+#header {
+  width: 100%;
+  height: 300px;
+  background: #ccc;
+}
+
+.a-container {
+  position: relative;
+  top: 10%;
+  padding: 10px 20px 10px 20px;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+.a-container a { 
+  padding: 10px 20px 10px 20px;
+}
+
+
+#header a:hover {
+  color: #999;
+}
+
+#wrapper-circles {
+  padding-left: 365px;  
+}
+
+#wrapper-circles p {
+  text-align: center;
+  text-decoration: none;
+}
+
+#header a, p, .contact-list {
+  color: #333;
+  font-family: "Montserrat", sans-serif;
+}
+
+.circle {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  display: inline-block;
+  position: relative;
+  top: 50px;
+  margin: 0 20px;
+  overflow: hidden;
+  background: #ccc;
+}
+
+.circle:hover {
+  opacity: .5;
+}
+
+#about {
+  width: 700px;
+  margin-top: 170px;
+  margin-left: 25%;
+}
+
+#about p {
+  text-align: left;
+  line-height: 2;
+}
+
+#about, #contact {
+  border-top: 1px gray solid;
+}
+
+#contact {  
+  margin-top: 170px;
+  width: 700px;
+  position: relative; 
+  left: 25%;
+}
+
+#contact ul {
+  text-align: left;
+  list-style: none;
+}
+
+.fa {
+  position: absolute;
+  font-size: 15em;
+  top: -17px;
+}
+
+footer {
+  width: 100%;
+  height: 300px;
+  background: #ccc;
+  margin-top: 300px;
+}
+
+img.sites {
+  max-width: 700px;
+  overflow: hidden;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img.card-back {
+  margin-top: 20px;
+}
+
+.box {
+  margin-top: 50px;
+}
