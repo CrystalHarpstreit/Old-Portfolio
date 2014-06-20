@@ -41,6 +41,9 @@ a {
 #header a, p, .contact-list {
   color: #333;
   font-family: "Montserrat", sans-serif;
+  position: relative;
+  left: 10px;
+  top: 10px;
 }
 
 .circle {
