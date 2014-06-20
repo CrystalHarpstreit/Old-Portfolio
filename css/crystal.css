@@ -35,7 +35,8 @@ img {
 }
 
 #wrapper-circles {
-  padding-left: 365px;  
+  max-width: 800px;
+  margin: 0 auto;
 }
 
 #wrapper-circles p {
