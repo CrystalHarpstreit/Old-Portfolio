@@ -1,0 +1,6 @@
+h1 Crystal's Damn Techie Blog
+h2 A jump off the cliff into writing about what I learn in tech.
+
+for post, slug in public.posts._data
+  h2: a(href="posts/#{ slug }")= post.title
+  p.summary= post.summary

@@ -1,0 +1,11 @@
+doctype
+html
+  head
+    link(rel="stylesheet", href="css/main.css")
+    link(rel="stylesheet", href="css/nav.css")
+    link(rel="stylesheet", href="css/posts.css")
+  body
+    != partial("_shared/nav")
+    != yield
+    footer
+      != partial("_shared/nav")
