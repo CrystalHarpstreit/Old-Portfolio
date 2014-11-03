@@ -81,7 +81,7 @@ img {
 }
 
 #about, #contact {
-border-top: 1px gray solid;
+  border-top: 1px gray solid;
 }
 
 #contact {
@@ -97,9 +97,9 @@ border-top: 1px gray solid;
 }
 
 .fa {
-position: absolute;
-font-size: 15em;
-top: -17px;
+  position: absolute;
+  font-size: 15em;
+  top: -17px;
 }
 
 footer {
@@ -109,6 +109,19 @@ footer {
   margin-top: 300px;
 }
 
-footer, p {
+.copy {
   left: 10px;
+}
+
+.caption {
+  color: #333;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.3em;
+  width: 150px;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+p.summary {
+  text-align: center !important;
 }

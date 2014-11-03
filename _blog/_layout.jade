@@ -2,8 +2,12 @@ doctype
 html
   head
     link(rel="stylesheet", href="/blog/css/main.css")
-  body
-    != partial("_shared/nav")
-    != yield
-    footer
+    link(rel="stylesheet", href="/blog/css/nav.css")
+    link(rel="stylesheet", href="/blog/css/footer.css")
+    link(rel="stylesheet", href="/blog/css/posts.css")
+  div#container
+    body
       != partial("_shared/nav")
+      != yield
+  footer
+    != partial("_shared/nav")

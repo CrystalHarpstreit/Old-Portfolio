@@ -20,7 +20,7 @@ a {
   color: #333;
 }
 
-.a-container a { 
+.a-container a {
   padding: 10px 20px 10px 20px;
 }
 
@@ -30,7 +30,7 @@ a {
 }
 
 #wrapper-circles {
-  padding-left: 365px;  
+  padding-left: 365px;
 }
 
 #wrapper-circles p {
@@ -77,10 +77,10 @@ a {
   border-top: 1px gray solid;
 }
 
-#contact {  
+#contact {
   margin-top: 170px;
   width: 700px;
-  position: relative; 
+  position: relative;
   left: 25%;
 }
 
@@ -116,4 +116,8 @@ img.card-back {
 
 .box {
   margin-top: 50px;
+}
+
+.wanderful {
+  width: 300px;
 }
