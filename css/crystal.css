@@ -113,15 +113,6 @@ footer {
   left: 10px;
 }
 
-.caption {
-  color: #333;
-  font-family: "Montserrat", sans-serif;
-  font-size: 1.3em;
-  width: 150px;
-  margin-left: auto !important;
-  margin-right: auto !important;
-}
-
 p.summary {
   text-align: center !important;
 }

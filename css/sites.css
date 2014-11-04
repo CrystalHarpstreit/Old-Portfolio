@@ -121,9 +121,8 @@ img.card-back {
 .caption {
   color: #333;
   font-family: "Montserrat", sans-serif;
-  width: 150px;
-  margin-left: auto !important;
-  margin-right: auto !important;
+  position: relative;
+  left: 300px;
 }
 
 .wanderful {
