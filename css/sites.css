@@ -118,6 +118,14 @@ img.card-back {
   margin-top: 50px;
 }
 
+.caption {
+  color: #333;
+  font-family: "Montserrat", sans-serif;
+  width: 150px;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
 .wanderful {
   width: 300px;
 }
