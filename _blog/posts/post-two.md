@@ -21,3 +21,5 @@ var result = _.filter(letters, function(letter) {
 });
 
 console.log(result);
+
+http://jsbin.com/bavina/2/edit?js,console
